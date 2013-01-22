@@ -1,0 +1,18 @@
+<%= form_for(@teaching_unit) do |f| %>
+
+<%= error_explanation_for @teaching_unit %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :parent_id %><br />
+    <%= f.number_field :parent_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

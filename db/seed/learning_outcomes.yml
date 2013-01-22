@@ -1,0 +1,47 @@
+sistemas_inf01:
+ subject: sistemas_inf
+ statement: Evalúa sistemas informáticos identificando sus componentes y características.
+ 
+sistemas_inf02:
+ subject: sistemas_inf
+ statement: Instala sistemas operativos planificando el proceso e interpretando documentación técnica.
+
+sistemas_inf03:
+ subject: sistemas_inf
+ statement: Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.  
+sistemas_inf04:
+ subject: sistemas_inf
+ statement: Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema.
+
+sistemas_inf05:
+ subject: sistemas_inf
+ statement: Interconecta sistemas en red configurando dispositivos y protocolos.
+
+sistemas_inf06:
+ subject: sistemas_inf
+ statement: Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.
+
+sistemas_inf07:
+ subject: sistemas_inf
+ statement: Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general.
+
+base_datos01:
+ subject: base_datos
+ statement: Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.
+
+ 
+base_datos02:
+ subject:
+ statement: Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.
+
+base_datos03:
+ subject:
+ statement:
+
+base_datos04:
+ subject:
+ statement:
+
+base_datos05:
+ subject:
+ statement:

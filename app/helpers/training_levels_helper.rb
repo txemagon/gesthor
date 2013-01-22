@@ -1,0 +1,3 @@
+module TrainingLevelsHelper
+
+end

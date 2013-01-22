@@ -1,0 +1,433 @@
+  ###Descripción de los Ciclos
+
+dam:
+  profesional_family: Informática y Comunicaciones
+  european_benchmark: CINE-5b (Clasificación Internacional Normalizada de la Educación)
+  professional_profile: <%= <<-EOF
+  El perfil profesional del título de Técnico Superior en Desarrollo de Aplicaciones
+Multiplataforma queda determinado por su competencia general, sus competencias
+profesionales, personales y sociales, y por la relación de cualificaciones y, en su caso,
+unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas
+en el título.
+  EOF
+  -%>
+  main_competency: <%= <<-EOF
+  La competencia general de este título consiste en desarrollar, implantar, documentar y
+mantener aplicaciones informáticas multiplataforma, utilizando tecnologías y entornos de
+desarrollo específicos, garantizando el acceso a los datos de forma segura y cumpliendo
+los criterios de «usabilidad» y calidad exigidas en los estándares establecidos.
+  EOF
+  -%>
+  professional_environment: <%= <<-EOF
+  Las personas con este perfil profesional ejercen su actividad en entidades públicas
+o privadas de cualquier tamaño, tanto por cuenta ajena como por cuenta propia,
+desempeñando su trabajo en el área de desarrollo de aplicaciones informáticas
+multiplataforma en diversos ámbitos: gestión empresarial y de negocio, relaciones con
+clientes, educación, ocio, dispositivos móviles y entretenimiento, entre otros; aplicaciones
+desarrolladas e implantadas en entornos de alcance intranet, extranet e Internet;
+implantación y adaptación de sistemas de planificación de recursos empresariales y de
+gestión de relaciones con clientes.
+  EOF
+  -%>
+  relevant_jobs: <%= <<-EOF
+– Desarrollar aplicaciones informáticas para la gestión empresarial y de negocio.
+– Desarrollar aplicaciones de propósito general.
+– Desarrollar aplicaciones en el ámbito del entretenimiento y la informática móvil.
+  EOF
+  -%>
+  prospective_of_the_degree: <%= <<-EOF
+Las Administraciones educativas tendrán en cuenta, al desarrollar el currículo
+correspondiente, las siguientes consideraciones:
+a) Dirigirnos hacia una sociedad del conocimiento, en la que el recurso básico es el
+saber, y donde la voluntad de aplicar conocimiento se dirige a generar más conocimiento,
+obliga a realizar un elevado esfuerzo de sistematización y organización de la información,
+y poder compartir esta de forma adecuada.
+b) En esta línea, el desarrollo de plataformas multidisciplinares adquiere cada vez
+más importancia, y en estas plataformas el modelo para compartir y organizar la información
+contenida de forma segura es fundamental.
+c) Cada vez es más necesario para las empresas el acceso a información contenida
+en bases de datos mediante aplicaciones que, además, permitan gestionar de forma
+integral la información almacenada.
+d) La formación adquiere cada vez más importancia en sociedades altamente
+desarrolladas, y los rápidos avances y cambios tecnológicos del sector hacen que se
+demanden profesionales con una actitud favorable hacia la autoformación.
+e) Una característica fundamental de este perfil contemplaría la integración de
+contenidos gráficos y componentes multimedia en aplicaciones desarrolladas en
+diferentes plataformas, así como el desarrollo de interfaces gráficos de usuario
+interactivos.
+f) Igualmente, en el desarrollo de aplicaciones no debe olvidarse la importancia que
+ha adquirido, y que aumenta constantemente, el concepto de usabilidad, y que fomenta el
+empleo adecuado de los componentes visuales.
+g) El perfil profesional de este título evoluciona hacia una mayor integración de los
+sistemas de gestión e intercambio de información basados en diferentes plataformas y
+tecnologías, siendo preciso que cada vez sean más estables y seguros.
+h) Otra característica cada vez más importante para este perfil se basa en asegurar
+la integridad, consistencia y accesibilidad de los datos.
+i) Asegurar la funcionalidad y rentabilidad del sistema informático, sirviendo de apoyo
+al resto de departamentos de una organización, es un aspecto cada vez más relevante
+para este perfil profesional.
+j) Las tareas de tratamiento y transferencia de datos e información deberán realizarse
+conforme a la normativa legal que regula tales aspectos.
+k) La tele-operación, asistencia técnica remota y asistencia «on line» se configuran
+como un elemento imprescindible en la respuesta a la demanda de asistencia
+técnica.
+l) El aumento en el consumo de teléfonos, PDA y otros dispositivos móviles, con la
+consiguiente demanda de aplicaciones específicas, implica la necesaria adaptación de los
+desarrolladores a nuevas técnicas y entornos de desarrollo.
+m) De la misma forma, el consumo de aplicaciones para el entretenimiento y toda la
+cultura dirigida hacia el ocio electrónico, hace necesario el empleo de técnicas y entornos
+de desarrollo muy especializados y específicos.
+  EOF
+  -%>
+
+sti:
+  profesional_family: Electricidad y Electrónica
+  european_benchmark: CINE-5b (Clasificación Internacional Normalizada de la Educación).
+  professional_profile: <%= <<-EOF
+  El perfil profesional del título de Técnico Superior en Sistemas de Telecomunicaciones
+e Informáticos queda determinado por su competencia general, sus competencias
+profesionales, personales y sociales, y por la relación de cualificaciones del Catálogo
+Nacional de Cualificaciones Profesionales incluidas en el título.
+  EOF
+  -%>
+  main_competency: <%= <<-EOF
+  La competencia general de este título consiste en desarrollar proyectos, así como
+gestionar y supervisar el montaje y mantenimiento de las infraestructuras comunes de
+telecomunicaciones y de sistemas y equipos de telecomunicaciones tales como redes de
+banda ancha y de radiocomunicaciones fijas y móviles, sistemas telemáticos, de
+producción audiovisual y de transmisión, a partir de la documentación técnica, normativa
+y procedimientos establecidos, asegurando el funcionamiento, la calidad, la seguridad y
+la conservación medioambiental.
+  EOF
+  -%>
+  professional_environment: <%= <<-EOF
+  Este profesional ejerce su actividad en empresas del sector servicios, tanto
+privadas como públicas, dedicadas a las telecomunicaciones, integración de sistemas,
+redes de banda ancha, telemática y medios audiovisuales, como desarrollador de
+proyectos, integrador de sistemas y supervisor del montaje y mantenimiento de las
+instalaciones e infraestructuras, bien por cuenta propia o ajena.
+  EOF
+  -%>
+  relevant_jobs: <%= <<-EOF
+  −  Ayudante de proyectista en instalaciones de telecomunicaciones para viviendas y
+edificios.
+−  Supervisor del montaje de instalaciones de telecomunicaciones para viviendas y
+edificios.
+−  Técnico en verificación y control de equipos e instalaciones de telecomunicaciones.
+−  Especialista en instalación, integración y mantenimiento de equipos y sistemas de
+telecomunicación.
+−  Jefe de obra en instalaciones de telecomunicaciones.
+−  Técnico en supervisión, instalación, verificación y control de equipos de sistemas
+de radio y televisión en estudios de producción y sistemas de producción audiovisual.
+−  Técnico en supervisión, instalación, mantenimiento, verificación y control de
+equipos de sistemas de radiodifusión.
+−  Técnico en supervisión, instalación, mantenimiento, verificación y control de
+equipos de sistemas de seguridad electrónica y circuitos cerrados de televisión.
+−  Técnico en supervisión, instalación, mantenimiento, verificación y control en redes
+locales y sistemas telemáticos.
+−  Técnico en supervisión, instalación, mantenimiento, verificación y control en
+sistemas de radioenlaces.
+−  Especia
+  EOF
+  -%>
+  prospective_of_the_degree: <%= <<-EOF
+  a) El perfil profesional de este título, dentro del sector terciario, evoluciona hacia un
+técnico superior con gran especialización en la supervisión, instalación y mantenimiento
+de infraestructuras de telecomunicaciones, sistemas de seguridad electrónica, redes de
+comunicación, hogar digital, telefonía, sonido e imagen y sistemas informáticos, con un
+incremento en el desempeño de funciones de gestión, planificación, calidad y prevención
+de riesgos laborales.
+b) El desarrollo de las tecnologías de la información, como resultado de la
+convergencia de la informática y las telecomunicaciones, se fundamenta principalmente
+en la fibra óptica y las redes de comunicación inalámbricas, para el tránsito de cualquier
+tipo de información. La integración de equipos y sistemas, tanto informáticos como de
+telecomunicación, conlleva un cambio en los procesos tradicionales de planificación,
+instalación y mantenimiento en cuanto a las nuevas tecnologías, cuyo objetivo es
+optimizar las comunicaciones entre usuarios.
+c) Será necesaria la utilización de técnicas y procedimientos concretos para la
+integración de estos sistemas, así como el uso de equipamiento de comprobación y
+medida específico.
+d) Las estructuras organizativas tienden a configurarse sobre la base de decisiones
+descentralizadas y equipos participativos de gestión, potenciando la autonomía y
+capacidad de decisión.
+e) Las características del mercado de trabajo, la movilidad laboral y la apertura
+económica obligan a formar profesionales polivalentes capaces de adaptarse a las
+nuevas situaciones socioeconómicas, laborales y organizativas del sector.
+f) La adaptación a las directivas europeas y nacionales sobre la gestión de residuos
+implicará la puesta en marcha de procedimientos que permitan el aprovechamiento de los
+recursos en condiciones de seguridad, calidad y respeto al medio ambiente.
+  EOF
+  -%>
+
+mi:
+ profesional_family: Instalación y Mantenimiento
+ european_benchmark: CINE-5b. Nivel del Marco Español de Cualificaciones para la educación superior. Nivel 1 Técnico Superior
+ professional_profile: <%= <<-EOF
+ El perfil profesional del título de Técnico Superior en Mecatrónica Industrial queda 
+determinado por su competencia general, sus competencias profesionales, personales y 
+sociales, y por la relación de cualificaciones y, en su caso, unidades de competencia del 
+Catálogo Nacional de Cualificaciones profesionales incluidas en el título.
+  EOF
+  -%>
+ main_competency: <%= <<-EOF
+ La competencia general de este título consiste en configurar y optimizar sistemas
+mecatrónicos industriales, así como planificar, supervisar y/o ejecutar su montaje y
+mantenimiento, siguiendo los protocolos de calidad, de seguridad y de prevención de
+riesgos laborales y respeto ambiental.
+  EOF
+  -%>
+ professional_environment: <%= <<-EOF
+ Las personas que obtienen este título ejercen su actividad en empresas,
+mayoritariamente privadas, dedicadas al desarrollo de proyectos, a la gestión y
+supervisión del montaje y mantenimiento de sistemas mecatrónicos o instalaciones de
+maquinaria, equipo industrial y líneas automatizadas, bien por cuenta propia o ajena.
+  EOF
+  -%>
+ relevant_jobs: <%= <<-EOF
+ Técnico en planificación y programación de procesos de mantenimiento de
+instalaciones de maquinaria y equipo industrial.
+  EOF
+  -%>
+ prospective_of_the_degree: <%= <<-EOF
+a) El sector del mantenimiento industrial está evolucionando hacia nuevos sistemas
+de gestión predictivos y preventivos, tales como TPM (mantenimiento productivo total),
+CBM (mantenimiento basado en condición), RMC (mantenimiento basado en fiabilidad,
+mantenimiento operacional y mantenimiento proactivo). La evolución tecnológica marca
+asímismo una tendencia hacia el telemantenimiento.
+b) La eficiencia energética tanto en la maquinaria como en las líneas automatizadas
+es otro elemento a tener en cuenta, sobre todo en los procesos de montaje y puesta a
+punto. El cumplimiento de normativas y directivas de seguridad será otro factor
+determinante en el ámbito de actuación de este perfil.
+c) Desde el punto de vista de las funciones, el desarrollo de los nuevos sistemas de
+gestión del mantenimiento supondrá un cambio cultural en la actividad de este profesional.
+Las funciones relacionadas con la seguridad, la calidad y la eficiencia energética
+aumentarán su relevancia. El profesional dedicará la parte principal de su tiempo a definir
+y gestionar la aplicación práctica de los planes de mantenimiento, así como la gestión y
+control de las acciones correctivas. La elaboración de los planes de mantenimiento
+preventivo-predictivo, la gestión adecuada de los repuestos, será otro aspecto que se va
+a desarrollar. La complejidad tecnológica requerirá mayores competencias en las nuevas
+tecnologías y la correcta utilización de aplicaciones informáticas para facilitar y
+sistematizar su trabajo, garantizando la eficiencia y calidad.
+d) En el aspecto tecnológico, los actuadores eléctricos sustituirán de forma paulatina
+a las aplicaciones neumáticas e hidraúlicas. El impulso de las comunicaciones industriales
+y la incorporación de sistemas SCADA (supervisory control and data adquisition) facilitará
+la supervisión de las instalaciones de forma local y a distancia. La monitorización del
+consumo energético en sus diferentes variables será también un elemento influyente
+dentro de este ámbito. En instalaciones altamente automatizadas, la gestión a través de
+ERP (Enterprise Resource Planning) y MES (Manufacturing Execution Systems) cobrarán
+relevancia de forma paulatina. La evolución tecnológica permitirá la incorporación de
+sistemas de control de calidad avanzados (visión artificial y RFID, entre otros) y la
+presencia de los robots en funciones de montaje, manipulación y transporte.
+e) Las estructuras organizativas, tanto para el montaje como para el matenimiento,
+se vuelven globales, incorporando a todos los departamentos de las empresas. Este
+hecho supondrá a su vez, una descentralización de la toma de decisión, mayor autonomia,
+una necesidad de mayor conocimiento de las estructuras organizativas de la empresa y la
+necesidad de trabajar en equipo.
+f) El conocimiento de las directivas y normativa aplicable en los procesos de montaje
+y mantenimiento será un aspecto importante de la evolución de estos profesionales, ya
+que las exigencias del mercado apuntan en esa dirección.
+  EOF
+  -%>
+
+dfm:
+  profesional_family: Fabricación Mecánica
+  european_benchmark: CINE-5b (Clasificación Internacional Normalizada de la Educación)
+  professional_profile: <%= <<-EOF
+    El perfil profesional del título de Técnico Superior en Diseño en Fabricación Mecánica
+queda determinado por su competencia general, sus competencias profesionales,
+personales y sociales, y por la relación de cualificaciones y, en su caso, unidades de
+competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el
+título.
+  EOF
+  -%>
+  main_competency: <%= <<-EOF
+  La competencia general de este título consiste en diseñar productos de fabricación
+mecánica, útiles de procesado de chapa, moldes y modelos para polímeros, fundición,
+forja, estampación o pulvimetalurgia, asegurando la calidad, y cumpliendo la normativa de
+prevención de riesgos laborales y de protección ambiental.
+  EOF
+  -%>
+  professional_environment: <%= <<-EOF
+  Este profesional ejerce su actividad en  el sector de las industrias transformadoras
+de metales, polímeros, elastómeros y materiales compuestos relacionadas con los
+subsectores de construcción de maquinaria y equipo mecánico, de material y equipo
+eléctrico electrónico y óptico, y de material de transporte encuadrado en el sector
+industrial.
+  EOF
+  -%>
+  relevant_jobs: <%= <<-EOF
+Delineante proyectista.
+Técnico en CAD.
+Técnico en desarrollo de productos.
+Técnico en desarrollo de matrices.
+Técnico en desarrollo de utillajes.
+Técnico en desarrollo de moldes.
+Técnico de desarrollo de productos y moldes.
+  EOF
+  -%>
+  prospective_of_the_degree: <%= <<-EOF
+1. Las estructuras organizativas tienden a configurarse sobre la base de decisiones
+descentralizadas, trabajo en equipo y asunción de funciones anteriormente asignadas a
+otros departamentos como calidad, logística, mantenimiento, producción, entre otros.
+2. Un aspecto importante de este perfil será la relación participativa con proveedores
+y clientes para tratar aspectos  técnicos y económicos.
+3. La evolución tecnológica tiende hacia  el uso y desarrollo de nuevos métodos de
+diseño mediante software participativo de integración entre diseño y producción mediante
+la aplicación generalizada de las TIC’s.
+4. El desarrollo de software sectorizado permitirá la obtención de metodologías de
+diseño modulares y adaptables, que agilizarán las etapas de diseño de una forma adaptada
+a las necesidades concretas de cada sector.
+5. La implantación de las técnicas de prototipado rápido a nivel industrial continuará
+evolucionando. A corto plazo el uso del prototipado rápido será generalizado y la fabricación
+de prototipos mediante estas tecnologías irá reduciendo los tiempos de conceptualización,
+diseño y validación de productos.
+6. Tendencia creciente de utilización en el diseño de materiales sostenibles y
+tecnologías de fabricación limpias.
+7. Tendencia de diseño de máquinas herramientas adaptadas a sectores específicos
+de fabricación mecánica así como máquinas herramientas con reducción de tiempos de
+ciclo  relacionados con la integración de sistemas de control del proceso de fabricación y
+la ergonomía.
+  EOF
+  -%>
+
+af:
+ profesional_family: Administración y Gestión
+ european_benchmark: CINE-5b. Nivel del Marco Español de Cualificaciones para la educación superior, Nivel 1. Técnico Superior
+ professional_profile: <%= <<-EOF
+  El perfil profesional del título de Técnico Superior en Administración y Finanzas queda
+determinado por su competencia general, sus competencias profesionales, personales y
+sociales, y por la relación de cualificaciones y, en su caso, unidades de competencia del
+Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+  EOF
+  -%>
+ main_competency: <%= <<-EOF
+  La competencia general de este título consiste en organizar y ejecutar las operaciones
+de gestión y administración en los procesos comerciales, laborales, contables, fiscales y
+financieros de una empresa pública o privada, aplicando la normativa vigente y los
+protocolos de gestión de calidad, gestionando la información, asegurando la satisfacción
+del cliente y/o usuario y actuando según las normas de prevención de riesgos laborales y
+protección medioambiental.
+  EOF
+  -%>
+ professional_environment: <%= <<-EOF
+  Las personas que obtienen este título ejercen su actividad tanto en grandes como
+en medianas y pequeñas empresas, en cualquier sector de actividad, particularmente en
+el sector servicios, así como en las administraciones públicas, desempeñando las tareas
+administrativas en la gestión y el asesoramiento en las áreas laboral, comercial, contable
+y fiscal de dichas empresas e instituciones, ofreciendo un servicio y atención a los clientes
+y ciudadanos, realizando trámites administrativos con las administraciones públicas y
+gestionando el archivo y las comunicaciones de la empresa.
+Podría ser trabajador por cuenta propia, efectuando la gestión de su propia empresa
+o a través del ejercicio libre de una actividad económica, como en una asesoría financiera,
+laboral o estudio de proyectos, entre otros
+  EOF
+  -%>
+ relevant_jobs: <%= <<-EOF
+– Administrativo de oficina.
+– Administrativo comercial.
+– Administrativo financiero.
+– Administrativo contable.
+– Administrativo de logística.
+– Administrativo de banca y de seguros.
+– Administrativo de recursos humanos.
+– Administrativo de la Administración pública.
+– Administrativo de asesorías jurídicas, contables, laborales, fiscales o gestorías.
+– Técnico en gestión de cobros.
+– Responsable de atención al cliente.
+  EOF
+  -%>
+ prospective_of_the_degree: <%= <<-EOF
+  Las Administraciones educativas tendrán en cuenta, al desarrollar el currículo
+correspondiente, las siguientes consideraciones:
+a) La profesión de técnico superior en Administración y Finanzas ha sufrido una
+evolución en los últimos años como consecuencia del desarrollo que han experimentado
+los sectores económicos de forma general y el sector servicios en particular, que ha
+supuesto una fuerte demanda de profesionales con esta ocupación.
+b) Algunas causas que han provocado esta situación y que harán que se continue
+demandando profesionales con esta ocupación son las siguientes:
+– La tendencia de la actividad económica hacia la globalización y el incremento de
+las relaciones comerciales e institucionales internacionales requiere de profesionales
+cualificados y competitivos, especialmente en las nuevas tecnologías de la información y
+comunicación, y con competencias lingüísticas en distintos idiomas.
+– La organización de la actividad productiva de las empresas y del trabajo exigen
+actualmente, a los profesionales de administración y finanzas, una serie de competencias
+personales y sociales relacionadas con el trabajo en equipo, la autonomía e iniciativa en
+la toma de decisiones y en el desarrollo de tareas y la atención al público. Hay que insistir
+en que las fronteras entre las diferentes áreas de la administración empresarial están
+cada vez más diluidas, de modo que se requieren esfuerzos cada vez mayores en la
+coordinación de las mismas, tanto interna como externamente.
+– El cambio constante en legislación, tipos de documentos y procedimientos
+administrativos utilizados por la empresa, exige, por parte de estos profesionales, una
+actualización constante y actitudes favorables hacia el aprendizaje a lo largo de la vida,
+hacia la autoformación y hacia la responsabilidad.
+– La creciente competitividad en el mundo empresarial exige profesionales capaces
+de desarrollar su actividad en un entorno de gestión de calidad, con importancia en la
+seguridad, la higiene y el respeto al medio ambiente.
+  EOF
+  -%>
+
+sc:
+ profesional_family: Fabricación Mecánica
+ european_benchmark: CINE-3 (Clasificación Internacional Normalizada de la Educación).
+ professional_profile: <%= <<-EOF
+  El perfil profesional del título de Técnico en Soldadura
+y Calderería queda determinado por su competencia
+general, sus competencias profesionales, personales y
+sociales, y por la relación de cualificaciones y, en su caso,
+unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+  EOF
+  -%>
+ main_competency: <%= <<-EOF
+  La competencia general de este título consiste en ejecutar los procesos de fabricación, montaje y reparación
+de elementos de calderería, tuberías, estructuras metálicas y carpintería metálica aplicando las técnicas de soldeo, mecanizado y conformado, y cumpliendo con las
+especificaciones de calidad, prevención de riesgos laborales y protección ambiental.
+  EOF
+  -%>
+ professional_environment: <%= <<-EOF
+  Esta figura profesional ejerce su actividad en las
+industrias de fabricación, reparación y montaje de productos de calderería, carpintería y estructura, relacionadas con los subsectores de construcciones metálicas,
+navales, y de fabricación de vehículos de transporte
+encuadradas en el sector industrial.
+  EOF
+  -%>
+ relevant_jobs: <%= <<-EOF
+  Las ocupaciones y puestos de trabajo más relevantes son los siguientes:
+a) Soldadores y oxicortadores.
+b) Operadores de proyección térmica.
+c) Chapistas y caldereros.
+d) Montadores de estructuras metálicas.
+e) Carpintero metálico.
+f) Tubero industrial de industria pesada.
+  EOF
+  -%>
+ prospective_of_the_degree: <%= <<-EOF
+  Las Administraciones educativas tendrán en cuenta,
+al desarrollar el currículo correspondiente, las siguientes
+consideraciones:
+a) Este perfil profesional, señala una evolución ascendente en la capacidad para tomar decisiones propias acerca
+de los procesos bajo su control, así como en asumir las funciones de planificación, calidad, mantenimiento de forma
+general y de prevención de riesgos laborales en la pequeña
+empresa. En esta última, se producirán mejoras en las condiciones de trabajo respecto a seguridad, y una mayor utilización de equipos de protección individual (EPI).
+b) Al aumento de la automatización y robotización
+en general, seguirá el desarrollo de sistemas informáticos
+para el control de las máquinas de corte y conformado.
+Las cizallas, plegadoras y curvadoras de rodillos también
+incorporan control numérico (CNC), se generalizará el uso
+de las máquinas de corte por plasma con control numé-
+rico (CNC). Aumentarán las máquinas de corte por láser y,
+en menor medida, las de corte por agua.
+c) En determinados sectores como el de construcción de material de transporte ferroviario, aeronáutica y
+nuclear se requieren soldadores homologados bajo las
+normas de fabricación.
+d) En soldadura, los equipos son cada vez más sofisticados, lo que permite mayor control de los parámetros
+de trabajo [equipos de arco pulsado, sinérgicos (autómatas), arco sumergido (SAW), etc.] y por consiguiente
+menor variabilidad en los resultados. Los robots de soldadura se generalizarán en trabajos repetitivos,
+e) Se incrementará el uso de la soldadura por arco
+sumergido, así como la MIG, MAG y Láser, en detrimento
+de la eléctrica convencional y la soldadura autógena.
+Nuevas técnicas permitirán mejorar las soldaduras de
+materiales de difícil soldabilidad: titanio, fundición de grafito nodular, entre otras.
+f) La recuperación y clasificación de residuos y chatarras y el tratamiento adecuado de residuos tóxicos y
+peligrosos, se hacen totalmente imprescindibles.
+  EOF
+  -%>

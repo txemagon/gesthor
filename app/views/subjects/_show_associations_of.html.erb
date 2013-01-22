@@ -1,0 +1,8 @@
+<h2><%= t("subject.#{association.to_s.pluralize}") -%></h2>
+
+<% if subject.send(association.to_s.pluralize).blank?  %>
+  <p><%= t("subject.still_no_#{association.to_s.pluralize}") %>.</p>
+<% else %>
+  <ul><%= render subject.send(association.to_s.pluralize), :subject => subject %></ul>
+<% end %>
+

@@ -1,0 +1,17 @@
+<%= nested_form_for(@subject_competency) do |f| %>
+
+<%= error_explanation_for @subject_competency %>
+<p>
+ <%= f.hidden_field :competency_id %>
+ <%= f.hidden_field :subject_id %>
+</p>
+
+       <b><%= t("learning_outcomes") %></b><br/>
+       <%= f.fields_for :learning_outcomes  %><br/>
+       <p><%= f.link_to_add t("learning_outcome.new"), :learning_outcomes %></p>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+

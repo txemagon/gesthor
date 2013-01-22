@@ -1,0 +1,14 @@
+es:
+  LevelGoal:
+    gender:
+      one: "el objetivo general"
+      other: "los objetivos generales"
+  activerecord:
+    models:
+      level_goal: "Objetivo General"
+      level_goals: "Objetivos Generales"
+    attributes:
+      level_goal:
+        statement: "Enunciado"
+        level_description_id: "Área Formativa"
+        level_description: "Área Formativa"

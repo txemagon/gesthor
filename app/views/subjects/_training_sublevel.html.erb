@@ -1,0 +1,16 @@
+  <div class="Nested">
+    <p style="font-size: <%= 16 - 2 * depth -%>pt;"><b><%= link_to unit.name, subjects_path(:scope => unit) %></b></p>
+    <% if unit.is_leaf? %>
+      <%= render 'subjects_index', :subjects => unit.subjects %>
+
+       <br />
+       <%= link_to t('subject.new').capitalize, new_subject_path(:training_level => unit) %>
+       <p>&nbsp</p>
+    <% end %>
+
+    <% unit.children.each do |child| %>
+      <%= render 'training_sublevel', :unit => child, :depth => (depth + 1) %>
+    <% end %>
+
+  </div>
+

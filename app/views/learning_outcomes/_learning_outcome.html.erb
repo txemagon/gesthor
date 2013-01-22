@@ -1,0 +1,10 @@
+<li>
+  <%= learning_outcome.statement %>
+  <% if learning_outcome.evaluation_criteria.blank? %>
+    <em>( <%= t('evaluation_criterium.still_no') %> )</em>
+  <% else %>
+  <ol>
+  <%= render learning_outcome.evaluation_criteria %>
+  </ol>
+  <% end %>
+</li>

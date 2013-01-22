@@ -1,0 +1,31 @@
+<%= nested_form_for(@learning_outcome) do |f| %>
+
+<%= error_explanation_for @learning_outcome %>
+
+  <div class="field">
+    <%= f.label :subject_id %><br />
+    <%= f.number_field :subject_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :statement %><br />
+    <%= f.text_area :statement, :rows => 4 %>
+  </div>
+
+  <h4><%= t("evaluation_criteria") %></h4>
+
+  <%= f.fields_for :evaluation_criteria  %>
+  <br\>
+  <%= f.link_to_add t("evaluation_criterium.new"), :evaluation_criteria %>
+
+  <h4><%= t("nuclear_activities") %></h4>
+
+  <%= f.fields_for :nuclear_activities  %>
+  <br\>
+  <%= f.link_to_add t("nuclear_activity.new"), :nuclear_activities %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

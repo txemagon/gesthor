@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.qualification.code').capitalize %>:</b>
+  <%= @qualification.code %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.qualification.statement').capitalize %>:</b>
+  <%= @qualification.statement %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.qualification.partial').capitalize %>:</b>
+  <%= @qualification.partial %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.qualification.level_description').capitalize %>:</b>
+  <%= @qualification.level_description_id %>
+</p>
+
+
+<%= link_to t('edit'), edit_qualification_path(@qualification) %> |
+<%= link_to t('back'), qualifications_path %>

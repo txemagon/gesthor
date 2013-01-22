@@ -1,0 +1,17 @@
+es:
+  subjects: "Asignaturas"
+  subject:
+    new: "Nueva Asignatura"
+    edit: "Modificar Asignatura"
+    list: "Lista de Asignaturas"
+    invalid_level: "área formativa no encontrada"
+    select_unit: "Seleccione unidad"
+    all_competencies: "Posibles competencias"
+    all_qualifications: "Posibles cualificaciones"
+    all_level_goals: "Posibles objetivos generales"
+    competencies: "Competencias Relacionadas"
+    qualifications: "Cualificaciones Relacionadas"
+    level_goals: "Objetivos Generales Relacionadas"
+    still_no_competencies: "Todavía no hay competencias relacionadas"
+    still_no_qualifications: "Todavía no se han reseñado cualificaciones asociadas"
+    still_no_level_goals: "Todavía no se han asociado objetivos generales"

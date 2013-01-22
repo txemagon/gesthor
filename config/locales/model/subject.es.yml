@@ -1,0 +1,22 @@
+es:
+  Subject:
+    gender:
+      one: "la asignatura"
+      other: "las asignaturas"
+  activerecord:
+    models:
+      subject: "Asignatura"
+      subjects: "Asignaturas"
+    attributes:
+      subject:
+        title: "Título"
+        abbreviation: "Abreviatura"
+        description: "Descripción"
+        training_level_id: "Nivel Formativo"
+        training_level: "Nivel Formativo"
+        code: "Código"
+        value: "Valor"
+        value_unit: "Unidad"
+        teaching_hours: "Horas Lectivas"
+        competencies: "Competencias Relacionadas"
+        

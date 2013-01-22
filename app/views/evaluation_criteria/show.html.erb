@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.evaluation_criterium.learning_outcome').capitalize %>:</b>
+  <%= @evaluation_criterium.learning_outcome_id %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.evaluation_criterium.statement').capitalize %>:</b>
+  <%= @evaluation_criterium.statement %>
+</p>
+
+
+<%= link_to t('edit'), edit_evaluation_criterium_path(@evaluation_criterium) %> |
+<%= link_to t('back'), evaluation_criteria_path %>

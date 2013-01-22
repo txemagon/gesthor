@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.teaching_unit.title').capitalize %>:</b>
+  <%= @teaching_unit.title %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.teaching_unit.parent').capitalize %>:</b>
+  <%= @teaching_unit.parent_id %>
+</p>
+
+
+<%= link_to t('edit'), edit_teaching_unit_path(@teaching_unit) %> |
+<%= link_to t('back'), teaching_units_path %>

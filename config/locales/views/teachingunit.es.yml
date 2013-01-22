@@ -1,0 +1,6 @@
+es:
+  teachingunits: "Unidades Formativas"
+  teachingunit:
+    new: "Nueva UF"
+    edit: "Editar UF"
+    list: "Unidades Formativas"

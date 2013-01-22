@@ -1,0 +1,146 @@
+ base_datos:
+  title: Bases de Datos
+  abbreviation: Bases de Datos
+  description: Desarrollo, diseño y consulta de Bases de Datos
+  training_level: dam
+  url:
+  code: 0484
+  value: 12
+  value_unit: ECTS
+  teaching_hours: 205
+
+ sistemas_inf:
+  title: Sistemas Informáticos
+  abbreviation: SI
+  description: Administrar, configurar y montar una red informática
+  training_level: dam
+  url:
+  code: 0483
+  value: 10
+  value_unit: ECTS
+  teaching_hours: 205
+
+ programacion:
+  title: Programación
+  abbreviation: Programación
+  description: Programar en lenguaje C
+  training_level: dam
+  url:
+  code: 0485
+  value: 14
+  value_unit: ECTS
+  teaching_hours: 270
+
+ lmsgi:
+  title: Lenguajes de marcas y sistemas de gestión de la información
+  abbreviation: LMSGI
+  description: Programación con lenguajes de marcado
+  training_level: dam
+  url:
+  code: 0373
+  value: 7
+  value_unit: ECTS
+  teaching_hours: 140
+  
+ ed:
+  title: Entornos de desarrollo
+  abbreviation: ED
+  description: Diseño de programas UML
+  training_level: dam
+  url:
+  code: 0487
+  value: 6
+  value_unit: ECTS
+  teaching_hours: 90
+
+ fol:
+   title: Formación y orientación laboral
+   abbreviation: FOL
+   description: Creación de curriculum y nóminas
+   training_level: dam
+   url:
+   code: 0493
+   value: 5
+   value_unit: ECTS
+   teaching_hours: 90
+
+ ad:
+   title: Acceso a Datos
+   abbreviation: AD
+   description: Acceso a datos
+   training_level: dam
+   url:
+   code: 0486
+   value: 9
+   value_unit: ECTS
+   teaching_hours: 120
+
+
+ di:
+   title: Desarrollo de Interfaces
+   abbreviation: DI
+   description: Confección de interfaces de usuario
+   training_level: dam
+   url:
+   code: 0488
+   value: 9
+   value_unit: ECTS
+   teaching_hours: 120
+
+ eie:
+   title: Empresa e Iniciativa Emprendedora
+   abbreviation: EIE
+   description: Innovación y desarrollo económico
+   training_level: dam
+   url:
+   code: 0494
+   value: 4
+   value_unit: ECTS
+   teaching_hours: 65
+
+ psp:
+  title: Programación de Servicios y Procesos
+  abbreviation: PSP
+  description: Programación de Servicios y Procesos
+  training_level: dam
+  url:
+  code: 0490
+  value: 5
+  value_unit: ECTS
+  teaching_hours: 80
+
+ pmdm:
+   title: Programación Multimedia y Dispositivos Móviles
+   abbreviation: PMDM
+   description: Programación Multimedia y Dispositivos Móviles
+   training_level:
+   url:
+   code: 0489
+   value: 80
+   value_unit: ECTS
+   teaching_hours: 80
+
+ sge:
+  title: Sistemas de Gestión Empresarial
+  abbreviation: SGE
+  description: Sistemas de Gestión Empresarial
+  training_level:
+  url:
+  code: 0491
+  value: 6
+  value_unit: ECTS
+  teaching_hours: 95
+
+ pdam:
+   title: Proyecto de Desarrollo de Aplicaciones Multiplataforma
+   abbreviation: PDAM
+   description: Proyecto del final del ciclo formativo
+   training_level: dam
+   url:
+   code: 0492
+   value: 5
+   value_unit: ECTS
+   teaching_ hours: 30
+
+   
+

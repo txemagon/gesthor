@@ -1,0 +1,6 @@
+es:
+  training_levels: "Niveles Formativos"
+  training_level:
+    new: "Nuevo Nivel Formativo"
+    edit: "Editar el Nivel Formativo"
+    list: "Niveles Formativos"

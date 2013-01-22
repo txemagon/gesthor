@@ -1,0 +1,17 @@
+es:
+  EvaluableCompetency:
+    gender:
+      one: "la competencia"
+      other: "las competencias"
+  activerecord:
+    models:
+      evaluable_competency: "Competencia"
+      evaluable_competencies: "Competencias"
+    attributes:
+      evaluable_competency:
+        name: "Nombre"
+        category: "Categoría"
+  
+  professional: "profesional"
+  personal: "personal"
+  social: "social"

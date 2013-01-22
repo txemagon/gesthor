@@ -1,0 +1,16 @@
+es:
+  Teachingunit:
+    gender:
+      one: "la unidad formativa"
+      other: "las unidades formativas"
+  activerecord:
+    models:
+      teachingunit: "Unidad Formativa"
+      teachingunits: "Unidades Formativas"
+    attributes:
+      teachingunit:
+        title: "Título"
+        subject_id: "Asignatura"
+        subject: "Asignatura"
+        parent_id: "Ámbito"
+        paretn: "Ámbito"

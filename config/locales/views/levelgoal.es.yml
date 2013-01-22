@@ -1,0 +1,8 @@
+es:
+  level_goals: "Objetivos Generales"
+  level_goal:
+    new: "Nuevo Objetivo"
+    edit: "Editar Objetivo"
+    list: "Lista de Objetivos Generales"
+    empty: "Todavía no se han asociado objetivos generales."
+    remove: "Eliminar Objetivo"

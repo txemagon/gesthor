@@ -1,0 +1,8 @@
+
+<h1><%= t('level_description.edit') %> </h1>
+<h2><%= @level_description.training_level.name %></h2>
+
+<%= render 'form' %>
+
+<%= link_to t('show'), @level_description %> |
+<%= link_to t('back'), training_levels_path %>

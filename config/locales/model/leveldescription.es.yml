@@ -1,0 +1,24 @@
+es:
+  LevelDescription:
+    gender:
+      one: "la descripción del nivel"
+      other: "la descripción de los niveles"
+  level_description:
+    gender:
+      one: "la descripción del nivel"
+      other: "la descripción de los niveles"
+  activerecord:
+    models:
+      level_description: "Descripción del Nivel Formativo"
+      level_descriptions: "Descripción de los Niveles Formativos"
+    attributes:
+      level_description:
+        training_level_id: "Nivel Formativo"
+        training_level: "Nivel Formativo"
+        main_competency: "Competencia General"
+        european_benchmark: "Referente Europeo"
+        professional_profile: "Perfil Profesional"
+        professional_environment: "Entorno Profesional"
+        relevant_jobs: "Puestos Relevantes"
+        prospective_of_the_degree: "Prospectiva del título"
+        professional_family: "Familia Profesional"

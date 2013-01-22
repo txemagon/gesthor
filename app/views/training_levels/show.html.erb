@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= image_tag @training_level.logo.url(:medium) %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.training_level.name').capitalize %>:</b>
+  <%= @training_level.name %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.training_level.short_name').capitalize %>:</b>
+  <%= @training_level.short_name %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.training_level.url').capitalize %>:</b>
+  <%= link_to @training_level.url, @training_level.url %>
+</p>
+
+
+<p>
+  <b><%= t('activerecord.attributes.training_level.description').capitalize %>:</b>
+  <%= @training_level.description %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.training_level.parent').capitalize %>:</b>
+  <%= @training_level.parent.name if @training_level.parent %>
+</p>
+
+<%= render "level_descriptions/level_description", :level_description => @training_level.level_description if @training_level.is_leaf? and @training_level.level_description %> 
+
+<%= render :partial => "level_descriptions/description_levers" if @training_level.is_leaf? %>
+
+ <%= link_to t('subjects'), subjects_path(:scope => @training_level) %> |
+
+<%= link_to t('edit'), edit_training_level_path(@training_level) %> |
+<%= link_to t('back'), training_levels_path %>

@@ -1,0 +1,29 @@
+<h1><%= t('training_level.list') %></h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th><%= t('activerecord.attributes.training_level.name').capitalize %></th>
+    <th><%= t('activerecord.attributes.training_level.parent').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @training_levels.each do |training_level| %>
+  <tr>
+    <td><%= conditional_link(training_level, image_tag(training_level.logo.url(:tiny))) %></td>
+    <td><%= conditional_link(training_level, training_level.name) %> <%= "(#{training_level.short_name})" unless training_level.short_name.blank? -%></td>
+    <td><%= training_level.parent.name if training_level.parent %></td>
+    <td><%= link_to t('show'), training_level %></td>
+    <td><%= link_to t('edit'), edit_training_level_path(training_level) %></td>
+    <td><%= link_to t('destroy'), training_level, :confirm => t('are_you_sure'), :method => :delete %></td>
+    <td><%= link_to t('subjects'), subjects_path(:scope => training_level) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to t('training_level.new').capitalize, new_training_level_path %>

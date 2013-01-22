@@ -1,0 +1,9 @@
+es:
+  competencies: "Competencias"
+  competency:
+    new: "Redactar Competencia"
+    edit: "Modificar Competencia"
+    list: "Lista de Competencias"
+    remove: "Eliminar Competencia"
+    empty: "Todavía no se han redactado competencias."
+    work_on_this: "Trabajar en esta competencia"

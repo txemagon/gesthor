@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.competency.statement').capitalize %>:</b>
+  <%= @competency.statement %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.competency.level_description').capitalize %>:</b>
+  <%= @competency.level_description_id %>
+</p>
+
+
+<%= link_to t('edit'), edit_competency_path(@competency) %> |
+<%= link_to t('back'), competencies_path %>

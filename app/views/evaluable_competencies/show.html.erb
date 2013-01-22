@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.evaluable_competency.name').capitalize %>:</b>
+  <%= @evaluable_competency.name %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.evaluable_competency.category').capitalize %>:</b>
+  <%= @evaluable_competency.category %>
+</p>
+
+
+<%= link_to t('edit'), edit_evaluable_competency_path(@evaluable_competency) %> |
+<%= link_to t('back'), evaluable_competencies_path %>

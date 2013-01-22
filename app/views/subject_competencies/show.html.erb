@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h3><%= t('learning_outcomes') -%></h3>
+<% if @subject_competency.learning_outcomes.blank? %>
+  <p><%= t('learning_outcome.still_no') %>.</p>
+<% else %>
+  <ol>
+    <%= render @subject_competency.learning_outcomes %>
+  </ol>
+<% end %>
+
+<%= link_to t('edit'), edit_subject_competency_path(@subject_competency) %> |
+<%= link_to t('back'), @subject_competency.subject %>

@@ -1,0 +1,18 @@
+<% show = [show] unless show.respond_to? :each %>
+
+  <h3><%= t("subject.all_#{ relation.to_s.pluralize }") %></h3>
+  <p>
+  <% for related in subject.training_level.send(relation.to_s.pluralize) %>
+    <%= check_box_tag "subject[#{relation.to_s}_ids][]", related.id, subject.send(relation.to_s.pluralize).include?(related), :id => "subject_#{ relation.to_s }_ids_#{related.id}"  %>
+    <label for="<%= "subject_#{ relation.to_s }_ids_#{related.id}" -%>">
+    <% show.each do |field| %>
+      <% if field.is_a? Symbol %>
+        <%= related.send(field) %>
+      <% else %>
+        <%= field %>
+      <% end %>
+    <% end %>
+    </label>
+    <%#= competency_link_to t("competency.work_on_this"), related, subject, relation  %>
+    <br/>
+      <% end %>

@@ -1,0 +1,36 @@
+<%= form_for(@training_level, :html => { :multipart => true } ) do |f| %>
+
+<%= error_explanation_for @training_level %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :short_name %><br />
+    <%= f.text_field :short_name%>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br />
+    <%= f.text_field :url%>
+  </div>
+  <div class="field">
+    <%= f.label :logo %><br />
+    <%= f.file_field :logo %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :parent_id %><br />
+    <%= f.collection_select :parent_id, TrainingLevel.all(:order => "name"), :id, :name, :include_blank => true %>
+  </div>
+
+  <p><%= render :partial => "level_descriptions/description_levers" if @training_level.is_leaf? %></p>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

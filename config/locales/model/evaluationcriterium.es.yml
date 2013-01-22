@@ -1,0 +1,16 @@
+es:
+  EvaluationCriterium:
+    gender:
+      one: "el criterio de evaluación"
+      other: "los criterios de evaluación"
+  activerecord:
+    models:
+      evaluation_criterium: "Criterio de Evaluación"
+      evaluation_criteria: "Criterios de Evaluación"
+    attributes:
+      evaluation_criterium: &evaluation_criterium
+        learning_outcome_id: "Resultado de Aprendizaje"
+        learning_outcome: "Resultado de Aprendizaje"
+        statement: "Enunciado"
+      evaluation_criteria:
+        <<: *evaluation_criterium

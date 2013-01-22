@@ -1,0 +1,7 @@
+
+<% if @training_level.level_description %>
+<%= link_to t('level_description.edit').capitalize, edit_level_description_path(@training_level.level_description, :training_level => @training_level) %>
+<% else %>
+<%= link_to t('level_description.new').capitalize, new_level_description_path(:training_level => @training_level) %>
+<% end %>
+|

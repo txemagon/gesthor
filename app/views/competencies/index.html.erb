@@ -1,0 +1,25 @@
+<h1><%= t('competency.list') %></h1>
+
+<table>
+  <tr>
+    <th><%= t('activerecord.attributes.competency.statement').capitalize %></th>
+    <th><%= t('activerecord.attributes.competency.level_description').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @competencies.each do |competency| %>
+  <tr>
+    <td><%= competency.statement %></td>
+    <td><%= competency.level_description.training_level.name %></td>
+    <td><%= link_to t('show'), competency %></td>
+    <td><%= link_to t('edit'), edit_competency_path(competency) %></td>
+    <td><%= link_to t('destroy'), competency, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to t('competency.new').capitalize, new_competency_path %>

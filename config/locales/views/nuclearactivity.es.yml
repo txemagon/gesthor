@@ -1,0 +1,8 @@
+es:
+  nuclear_activities: "Actividades"
+  nuclear_activity:
+    new: "Crear Actividad"
+    edit: "Editar Actividad"
+    list: "Actividades"
+    still_no: "Todavía no se han creado actividades."
+    remove: "Eliminar Actividad"

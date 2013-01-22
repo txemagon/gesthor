@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.level_goal.statement').capitalize %>:</b>
+  <%= @level_goal.statement %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.level_goal.level_description').capitalize %>:</b>
+  <%= @level_goal.level_description_id %>
+</p>
+
+
+<%= link_to t('edit'), edit_level_goal_path(@level_goal) %> |
+<%= link_to t('back'), level_goals_path %>

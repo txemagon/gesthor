@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th></th>
+    <th><%= t('activerecord.attributes.subject.value').capitalize %></th>
+    <th><%= t('activerecord.attributes.subject.teaching_hours').capitalize %></th>
+    <th><%= t('activerecord.attributes.subject.title').capitalize %> </th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% subjects.each do |subject| %>
+  <%= render 'subject_index', :subject => subject %>
+<% end %>
+</table>
+
+

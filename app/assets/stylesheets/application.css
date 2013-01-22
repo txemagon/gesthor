@@ -1,0 +1,93 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+body{
+   margin: 0px;
+   padding: 0px;
+   text-rendering: optimizelegibility;
+}
+
+#header{
+  height: 250px;
+  background: none repeat scroll 0 0 white;
+  border-top: 1px solid #222222;
+  margin: -1px 0 0;
+  padding-top: 0;
+  position: fixed;
+  width: 100%;
+  outline: 0 none;
+  line-height: normal;
+  vertical-align: top;
+  left: 0px;
+  top: 0px;
+}
+
+#claim{
+  font-family: 'GILL SANS MT EXT CONDENSED BOLD';
+  background: none repeat scroll 0 0 #222222;
+  border-bottom: 1px solid #222222;
+  color: white;
+  font-size: 26px;
+  letter-spacing: 2px;
+  padding: 4px;
+  padding-right:0287px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizelegibility;
+  display: inline-block;
+  width: 100%;
+  height: 135px;
+}
+
+#headertitle{
+   font-family: 'GILL SANS MT EXT CONDENSED BOLD';
+   height:  98px;
+   font-size: 64px;
+   letter-spacing: 0;
+   padding: 4px 4px 0;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   text-rendering: optimizelegibility;
+}
+
+#headsep{
+       background: url("/images/top-higher-shadow.png") repeat-x scroll 0 0 #FFFFFF;
+       border-top: 1px solid #BBBBBB;
+       padding-top: 24px;
+       position: relative;
+       z-index: -1;
+       overflow-y: auto;
+  }
+
+#thorimage{
+  background-color: #222; 
+  position: fixed; 
+  top: 0px; 
+  left:0px;
+}
+
+#claimtext{
+  padding-top: 100px;
+  display: inline-block;
+}
+
+#page{
+  width: 120ex;
+  margin: 0 auto 0 auto;
+  padding: 2ex 6ex 4ex 6ex;
+  line-height: normal;
+  margin-top: 281px;
+}
+

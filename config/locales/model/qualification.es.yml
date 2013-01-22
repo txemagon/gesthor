@@ -1,0 +1,18 @@
+es:
+  Qualification:
+    gender:
+      one: "la cualificación"
+      other: "las cualificaciones"
+  activerecord:
+    models:
+      qualification: "Cualificación Profesional"
+      qualifications: "Cualificaciones"
+    attributes:
+      qualification: &qualification
+        code: "código"
+        statement: "enunciado"
+        partial: "parcial"
+        level_description_id: "Área formativa"
+        level_description: "Área formativa"
+      qualifications:
+        <<: *qualification

@@ -1,0 +1,7 @@
+<h1><%= link_to t('subject.list'), subjects_path %></h1>
+
+<% @roots.each do |unit| %>
+  <%= render 'training_sublevel', :unit => unit, :depth => 0 %>
+  <% end %>
+
+  <p> <%= link_to t('subject.new').capitalize, new_subject_path %> </p>

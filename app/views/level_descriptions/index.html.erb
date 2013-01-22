@@ -1,0 +1,22 @@
+<h1><%= t('level_description.list') %></h1>
+
+<table>
+  <tr>
+    <th><%= t('activerecord.attributes.level_description.training_level').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @level_descriptions.each do |level_description| %>
+  <tr>
+    <td><%= level_description.training_level_id %></td>
+    <td><%= link_to t('show'), level_description %></td>
+    <td><%= link_to t('edit'), edit_level_description_path(level_description) %></td>
+    <td><%= link_to t('destroy'), level_description, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

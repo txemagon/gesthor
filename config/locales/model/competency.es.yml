@@ -1,0 +1,21 @@
+es:
+  Competency:
+    gender:
+      one: "la competencia"
+      other: "las competencias"
+      
+      
+
+  activerecord:
+
+    models:
+      competency: "Competencia"
+      competencies: "Competencias"
+
+    attributes:
+      competency: &competency
+        statement: "Enunciado"
+        level_description: "Modulo Asociado"
+        level_description_id: "Modulo Asociado"
+      competencies: 
+        <<: *competency

@@ -1,0 +1,6 @@
+en:
+  activerecord:
+    errors:
+      messages:
+        deadline_exceeded: " - The deadline has been exceeded"
+        valid_phone: " - must be a valid telephone number."

@@ -1,0 +1,262 @@
+sistemas_inf01_C01:
+  learning_outcome: sistemas_inf01
+  statement: Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.
+
+sistemas_inf01_C02: 
+  learning_outcome: sistemas_inf01
+  statement: Se ha verificado el proceso de puesta en marcha de un equipo.
+
+sistemas_inf01_C03: 
+  learning_outcome: sistemas_inf01
+  statement: Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.
+
+sistemas_inf01_C04: 
+  learning_outcome: sistemas_inf01
+  statement: Se han identificado los tipos de redes y sistemas de comunicación.
+
+
+sistemas_inf01_C05: 
+  learning_outcome: sistemas_inf01
+  statement: Se han identificado los componentes de una red informática.
+
+
+sistemas_inf01_C06: 
+  learning_outcome: sistemas_inf01
+  statement: Se han interpretado mapas físicos y lógicos de una red informática.
+
+sistemas_inf02_C01:
+  learning_outcome: sistemas_inf02
+  statement: Se han identificado los elementos funcionales de un sistema informático.
+
+sistemas_inf02_C02:
+  learning_outcome: sistemas_inf02 
+  statement: Se han analizado las características, funciones y arquitectura de un sistema operativo.
+
+sistemas_inf02_C03:
+  learning_outcome: sistemas_inf02
+  statement: Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso.
+
+sistemas_inf02_C04:
+  learning_outcome: sistemas_inf02
+  statement: Se han instalado diferentes sistemas operativos.
+ 
+sistemas_inf02_C05:
+  learning_outcome: sistemas_inf02
+  statement: Se han aplicado técnicas de actualización y recuperación del sistema.
+
+sistemas_inf02_C06:
+ learning_outcome: sistemas_inf02
+ statement: Se han utilizado maquinas virtuales para instalar y probar sistemas
+operativos.
+ 
+sistemas_inf02_C07:
+ learning_outcome: sistemas_inf02
+ statement: Se han documentado los procesos realizados.
+
+sistemas_inf03_C01:
+ learning_outcome: sistemas_inf03
+ statement: Se han comparado sistemas de archivos.
+
+sistemas_inf03_C02:
+ learning_outcome: sistemas_inf03
+ statement: Se ha identificado la estructura y función de los directorios del sistema operativo.
+ 
+sistemas_inf03_C03:
+ learning_outcome: sistemas_inf03
+ statement: Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos.
+
+sistemas_inf03_C04:
+ learning_outcome: sistemas_inf03
+ statement: Se han creado diferentes tipos de particiones y unidades lógicas.
+
+sistemas_inf03_C05:
+ learning_outcome: sistemas_inf03
+ statement: Se han realizado copias de seguridad.
+
+sistemas_inf03_C06:
+ learning_outcome: sistemas_inf03
+ statement: Se han automatizado tareas.
+
+
+sistemas_inf03_C07:
+ learning_outcome: sistemas_inf03
+ statement: Se han instalado y evaluado utilidades relacionadas con la gestión de información.
+
+sistemas_inf04_C01:
+ learning_outcome: sistemas_inf04
+ statement: Se han configurado cuentas de usuario locales y grupos.  
+
+sistemas_inf04_C02:
+ learning_outcome: sistemas_inf04
+ statement: Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas.
+
+sistemas_inf04_C03:
+ learning_outcome: sistemas_inf04
+ statement: han identificado, arrancado y detenido servicios y procesos.
+ 
+sistemas_inf04_C04:
+ learning_outcome: sistemas_inf04
+ statement: ha protegido el acceso a la información mediante el uso de permisos locales.
+ 
+sistemas_inf04_C05:
+ learning_outcome: sistemas_inf04
+ statement: Se han utilizado comandos para realizar las tareas básicas de configuración del
+sistema.
+
+sistemas_inf04_C06:
+ learning_outcome: sistemas_inf04
+ statement: ha monitorizado el sistema.
+ 
+sistemas_inf04_C07:
+ learning_outcome: sistemas_inf04
+ statement: Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema.
+
+sistemas_inf04_C08:
+ learning_outcome: sistemas_inf04
+ statement: Se han evaluado las necesidades del sistema informático en relación con el
+desarrollo de aplicaciones.
+ 
+sistemas_inf05_C01:
+ learning_outcome: sistemas_inf05
+ statement: Se ha configurado el protocolo TCP/IP.
+  
+sistemas_inf05_C02:
+ learning_outcome: sistemas_inf05
+ statement: Se han configurado redes de área local cableadas.
+ 
+sistemas_inf05_C03:
+ learning_outcome: sistemas_inf05
+ statement: Se han configurado redes de área local inalámbricas.
+
+sistemas_inf05_C04:
+ learning_outcome: sistemas_inf05
+ statement: Se han utilizado dispositivos de interconexión de redes.
+ 
+sistemas_inf05_C05:
+ learning_outcome: sistemas_inf05
+ statement: Se ha configurado el acceso a redes de área extensa.
+
+sistemas_inf05_C06:
+ learning_outcome: sistemas_inf05
+ statement: Se han gestionado puertos de comunicaciones.
+ 
+sistemas_inf05_C07:
+ learning_outcome: sistemas_inf05
+ statement: Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas.
+ 
+sistemas_inf05_C08:
+ learning_outcome: sistemas_inf05
+ statement: Se han aplicado protocolos seguros de comunicaciones.
+ 
+sistemas_inf06_C01:
+ learning_outcome: sistemas_inf06
+ statement: Se ha configurado el acceso a recursos locales y recursos de red.
+   
+sistemas_inf06_C02:
+ learning_outcome: sistemas_inf06
+ statement: Se han identificado los derechos de usuario y directivas de seguridad.
+ 
+sistemas_inf06_C03:
+ learning_outcome: sistemas_inf06
+ statement: Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones.
+ 
+sistemas_inf06_C04:
+ learning_outcome: sistemas_inf06
+ statement: Se ha accedido a los servidores utilizando técnicas de conexión remota. 
+
+sistemas_inf06_C05:
+ learning_outcome: sistemas_inf06
+ statement: Se ha evaluado la necesidad de proteger los recursos y el sistema.
+ 
+sistemas_inf06_C06:
+ learning_outcome: sistemas_inf06
+ statement: Se han instalado y evaluado utilidades de seguridad básica.
+ 
+sistemas_inf07_C01:
+ learning_outcome: sistemas_inf07
+ statement: Se ha clasificado software en función de su licencia y propósito.
+  
+sistemas_inf07_C02:
+ learning_outcome: sistemas_inf07
+ statement: Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos.
+  
+sistemas_inf07_C03:
+ learning_outcome: sistemas_inf07
+ statement: Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas.
+  
+sistemas_inf07_C04:
+ learning_outcome: sistemas_inf07
+ statement: Se han utilizado sistemas de correo y mensajería electrónica.
+
+sistemas_inf07_C05:
+ learning_outcome: sistemas_inf07
+ statement: Se han utilizado los servicios de transferencia de ficheros.
+ 
+sistemas_inf07_C06:
+ learning_outcome: sistemas_inf07
+ statement: Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet.
+
+base_datos01_C01:
+ learning_outcome: base_datos01 
+ statement: Se han analizado los sistemas lógicos de almacenamiento y sus características.
+
+base_datos01_C02:
+ learning_outcome: base_datos01 
+ statement: Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado.
+
+base_datos01_C03:
+ learning_outcome: base_datos01 
+ statement: Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información.
+ 
+base_datos01_C04:
+ learning_outcome: base_datos01 
+ statement: Se ha evaluado la utilidad de un sistema gestor de bases de datos.
+
+base_datos01_C05:
+ learning_outcome: base_datos01 
+ statement: Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.
+
+base_datos01_C06:
+ learning_outcome: base_datos01 
+ statement: Se han clasificado los sistemas gestores de bases de datos.
+ 
+base_datos01_C07:
+ learning_outcome: base_datos01 
+ statement: Se ha reconocido la utilidad de las bases de datos distribuidas.
+
+base_datos01_C08:
+ learning_outcome: base_datos01 
+ statement: Se han analizado las políticas de fragmentación de la información.
+ 
+base_datos02_C01:
+ learning_outcome: base_datos02 
+ statement: Se ha analizado el formato de almacenamiento de la información.
+ 
+base_datos02_C02:
+ learning_outcome: base_datos02 
+ statement: Se han creado las tablas y las relaciones entre ellas.
+
+base_datos02_C03:
+ learning_outcome: base_datos02 
+ statement: Se han seleccionado los tipos de datos adecuados.
+ 
+base_datos02_C04:
+ learning_outcome: base_datos02 
+ statement: Se han definido los campos clave en las tablas.
+
+base_datos02_C05:
+ learning_outcome: base_datos02 
+ statement: Se han implantado las restricciones reflejadas en el diseño lógico.
+ 
+base_datos02_C06:
+ learning_outcome: base_datos02 
+ statement: Se han creado vistas.
+
+base_datos02_C07:
+ learning_outcome: base_datos02 
+ statement: Se han creado los usuarios y se les han asignado privilegios.
+
+base_datos02_C08:
+ learning_outcome: base_datos02 
+ statement:  Se han utilizando asistentes, herramientas gráficas y los lenguajes de definición y control de datos.  
+

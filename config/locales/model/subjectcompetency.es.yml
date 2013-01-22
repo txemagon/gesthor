@@ -1,0 +1,15 @@
+es:
+  SubjectCompetency:
+    gender:
+      one: "la competencia"
+      other: "las competencias"
+  activerecord:
+    models:
+      subject_competency: "Competencia"
+      subject_competencies: "Competencias"
+    attributes:
+      subject_competency:
+        subject_id: "Asignatura"
+        subject: "Asignatura"
+        competency_id: "Competencia"
+        competency: "Competencia"

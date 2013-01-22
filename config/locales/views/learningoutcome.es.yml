@@ -1,0 +1,8 @@
+es:
+  learning_outcomes: "Resultados de Aprendizaje"
+  learning_outcome:
+    new: "Nuevo Resultado de Aprendizaje"
+    edit: "Cambiar el Resultado de Aprendizaje"
+    list: "Listado de Resultados de Aprendizaje"
+    remove: "Eliminar Resultado de Aprendizaje"
+    still_no: "Todavía no se han detallado Resultados de Aprendizaje" 

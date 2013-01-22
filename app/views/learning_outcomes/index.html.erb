@@ -1,0 +1,27 @@
+<h1><%= t('learning_outcome.list') %></h1>
+
+<h2><%= @subject.title if @subject -%></h2>
+
+<table>
+  <tr>
+    <th><%= t('activerecord.attributes.learning_outcome.subject').capitalize unless @subject %></th>
+    <th><%= t('activerecord.attributes.learning_outcome.statement').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @learning_outcomes.each do |learning_outcome| %>
+  <tr>
+    <td><%= learning_outcome.subject.title unless @subject %></td>
+    <td><%= learning_outcome.statement %></td>
+    <td><%= link_to t('show'), learning_outcome %></td>
+    <td><%= link_to t('edit'), edit_learning_outcome_path(learning_outcome) %></td>
+    <td><%= link_to t('destroy'), learning_outcome, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to t('learning_outcome.new').capitalize, new_learning_outcome_path %>

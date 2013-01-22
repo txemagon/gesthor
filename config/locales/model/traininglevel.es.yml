@@ -1,0 +1,27 @@
+es:
+  TrainingLevel:
+    gender:
+      one: "el nivel formativo"
+      other: "los niveles formativos"
+  training_level:
+    gender:
+      one: "el nivel formativo"
+      other: "los niveles formativos"
+  activerecord:
+    models:
+      training_level: "Nivel Formativo"
+      training_levels: "Niveles Formativos"
+    attributes:
+      training_level:
+        name: "Área"
+        short_name: "Abreviatura"
+        description: "Descripción"
+        parent_id: "Ámbito"
+        parent: "Ámbito"
+        logo: "Logotipo"
+        url: "URL"
+  
+  url_invalid_format: "Tiene un formato no válido"
+  url_unable_resolve_host: "No se ha podido resolver el nombre de dominio."
+  url_not_responding: "El sitio web no responde."
+  not_terminal: " - no es un nivel terminal."

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= t('activerecord.attributes.learning_outcome.subject').capitalize %>:</b>
+  <%= @learning_outcome.subject.title %>
+</p>
+
+<p>
+  <b><%= t('activerecord.attributes.learning_outcome.statement').capitalize %>:</b>
+  <%= @learning_outcome.statement %>
+</p>
+
+<h2> <%= t('evaluation_criteria') %></h2>
+<% if @learning_outcome.evaluation_criteria.blank? %>
+  <p><%= t('evaluation_criterium.still_no') %></p>
+<% else %>
+   <%= render @learning_outcome.evaluation_criteria %>
+<% end %>
+
+<h2> <%= t('nuclear_activities') %></h2>
+<% if @learning_outcome.nuclear_activities.blank? %>
+  <p><%= t('nuclear_activity.still_no') %></p>
+<% else %>
+   <%= render @learning_outcome.nuclear_activities %>
+<% end %>
+
+
+<%= link_to t('edit'), edit_learning_outcome_path(@learning_outcome) %> |
+<%= link_to t('back'), learning_outcomes_path %>

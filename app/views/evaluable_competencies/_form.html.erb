@@ -1,0 +1,19 @@
+<%= form_for(@evaluable_competency) do |f| %>
+
+<%= error_explanation_for @evaluable_competency %>
+
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.select :category, translate_options_for(EvaluableCompetency::COMPETENCY_TYPES)  %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

@@ -1,0 +1,10 @@
+es:
+  qualifications: "Cualificaciones"
+  qualification:
+    new: "Nueva Cualificación"
+    edit: "Modificar Cualificación"
+    list: "Lista de Cualificaciones"
+    partial: "es una cualificación parcial"
+    remove: "Quitar Cualificación"
+    empty: "Todavía no se han asociado cualificaciones."
+

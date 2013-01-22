@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gestor</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="header">
+     <div id="claim">
+      <%= image_tag "/images/thor.png", :id => "thorimage"-%>
+      <span id="claimtext">El gestor de formación</span>
+     </div>
+     <div id="headertitle">
+       GesTHOR
+     </div>
+     <div id="headsep">
+     </div>
+  </div>
+
+  <div id="page">
+    <%= yield %>
+  </div>
+
+</body>
+</html>

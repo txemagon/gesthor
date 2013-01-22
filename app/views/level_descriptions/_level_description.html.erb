@@ -1,0 +1,20 @@
+<%= show_fields %w{professional_family main_competency european_benchmark professional_profile professional_environment relevant_jobs prospective_of_the_degree }, level_description %>
+
+  <h2><%= t('activerecord.attributes.level_description.training_level').capitalize %>:
+  <%= level_description.training_level.name %></h2>
+
+  <h3><%= t('level_goals') -%></h3>
+
+  <%= t('level_goal.empty') if level_description.level_goals.empty? %>
+  <ul> <%= render level_description.level_goals %></ul>
+
+  <h3><%= t('competencies') -%></h3>
+
+  <%= t('competency.empty') if level_description.competencies.empty? %>
+  <ul> <%= render level_description.competencies %></ul>
+
+  <h3><%= t('qualifications') -%></h3>
+
+  <%= t('qualification.empty') if level_description.qualifications.empty? %>
+  <ul> <%= render level_description.qualifications %></ul>
+

@@ -1,0 +1,6 @@
+es:
+  evaluable_competencies: "Competencias"
+  evaluable_competency:
+    new: "Redactar Competencia"
+    edit: "Modificar Competencia"
+    list: "Competencias"

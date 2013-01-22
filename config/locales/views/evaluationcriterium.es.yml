@@ -1,0 +1,8 @@
+es:
+  evaluation_criteria: "Criterios de Evaluación"
+  evaluation_criterium:
+    new: "Nuevo Criterio"
+    edit: "Editar Criterio"
+    list: "Lista de Criterios de Evaluación"
+    remove: "Eliminar Criterio"
+    still_no: "Todavía no se han definido Criterios de Evaluación"

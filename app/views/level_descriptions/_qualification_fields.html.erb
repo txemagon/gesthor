@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th><%= f.label :code %></th>
+    <td><%= f.text_field :code, :cols => 7 %></td>
+    -
+    <th><%= f.check_box :partial %>
+    <%= f.label :partial %></th>
+  </tr>
+  <tr>
+    <th><%= f.label :statement %></th>
+    <td><%= f.text_area :statement, :rows => 2 %></td>
+    <td><%= f.link_to_remove t("qualification.remove") %></td>
+  <tr/>
+</table>

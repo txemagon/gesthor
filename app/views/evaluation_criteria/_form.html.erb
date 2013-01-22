@@ -1,0 +1,16 @@
+<%= form_for(@evaluation_criterium) do |f| %>
+
+<%= error_explanation_for @evaluation_criterium %>
+
+    <%= f.hidden_field :learning_outcome_id %>
+
+  <div class="field">
+    <%= f.label :statement %><br />
+    <%= f.text_area :statement %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

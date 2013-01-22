@@ -1,0 +1,17 @@
+es:
+  LearningOutcome:
+    gender:
+      one: "el resultado aprendizaje"
+      other: "los resultados de aprendizaje"
+  activerecord:
+    models:
+      learning_outcome: "Resultado de Aprendizaje"
+      learning_outcomes: "Resultados de Aprendizaje"
+    attributes:
+      learning_outcome: &learning_outcome
+        subject: "Asignatura"
+        subject_id: "Asignatura"
+        statement: "Enunciado"
+      learning_outcomes:
+        <<: *learning_outcome
+

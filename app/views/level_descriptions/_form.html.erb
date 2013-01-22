@@ -1,0 +1,60 @@
+<%= nested_form_for(@level_description) do |f| %>
+
+<%= error_explanation_for @level_description %>
+
+    <%= f.hidden_field :training_level_id %>
+
+  <div class="field">
+    <%= f.label :european_benchmark %><br />
+    <%= f.text_area :european_benchmark, :rows => 2 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :professional_family %><br />
+    <%= f.text_field :professional_family  %>
+  </div>
+
+
+    <h3><%= t('level_goals') %></h3>
+    <%= f.fields_for  :level_goals %>
+    <p><%= f.link_to_add t("level_goal.new"), :level_goals %></p>
+
+  <div class="field">
+    <%= f.label :main_competency %><br />
+    <%= f.text_area :main_competency, :rows => 2 %>
+  </div>
+
+    <h3><%= t('competencies') %></h3>
+    <%= f.fields_for  :competencies %>
+    <p><%= f.link_to_add t("competency.new"), :competencies %></p>
+
+    <h3><%= t('qualifications') %></h3>
+    <%= f.fields_for  :qualifications %>
+    <p><%= f.link_to_add t("qualification.new"), :qualifications %></p>
+
+
+  <div class="field">
+    <%= f.label :professional_profile %><br />
+    <%= f.text_area :professional_profile, :rows => 2 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :professional_environment %><br />
+    <%= f.text_area :professional_environment, :rows => 2 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :relevant_jobs%><br />
+    <%= f.text_area :relevant_jobs, :rows => 2 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :prospective_of_the_degree %><br />
+    <%= f.text_area :prospective_of_the_degree, :rows => 2 %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>

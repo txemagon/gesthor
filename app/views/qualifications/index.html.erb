@@ -1,0 +1,29 @@
+<h1><%= t('qualification.list') %></h1>
+
+<table>
+  <tr>
+    <th><%= t('activerecord.attributes.qualification.code').capitalize %></th>
+    <th><%= t('activerecord.attributes.qualification.statement').capitalize %></th>
+    <th><%= t('activerecord.attributes.qualification.partial').capitalize %></th>
+    <th><%= t('activerecord.attributes.qualification.level_description').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @qualifications.each do |qualification| %>
+  <tr>
+    <td><%= qualification.code %></td>
+    <td><%= qualification.statement %></td>
+    <td><%= qualification.partial %></td>
+    <td><%= qualification.level_description_id %></td>
+    <td><%= link_to t('show'), qualification %></td>
+    <td><%= link_to t('edit'), edit_qualification_path(qualification) %></td>
+    <td><%= link_to t('destroy'), qualification, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to t('qualification.new').capitalize, new_qualification_path %>

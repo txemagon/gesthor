@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+<h1><%= @level_description.training_level.name %></h1>
+
+<%= render 'level_description', :level_description => @level_description %>
+
+<%= link_to t('edit'), edit_level_description_path(@level_description, :training_level => @level_description.training_level) %> |
+<%= link_to t('back'), training_levels_path %>

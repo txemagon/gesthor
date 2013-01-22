@@ -1,0 +1,6 @@
+es:
+  subject_competencies: "Competencias"
+  subject_competency:
+    new: "Nueva Competencia"
+    edit: "Editar Competencia"
+    list: "Listado de Competencias"

@@ -1,0 +1,25 @@
+<h1><%= t('evaluation_criterium.list') %></h1>
+
+<table>
+  <tr>
+    <th><%= t('activerecord.attributes.evaluation_criterium.learning_outcome').capitalize %></th>
+    <th><%= t('activerecord.attributes.evaluation_criterium.statement').capitalize %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @evaluation_criteria.each do |evaluation_criterium| %>
+  <tr>
+    <td><%= evaluation_criterium.learning_outcome_id %></td>
+    <td><%= evaluation_criterium.statement %></td>
+    <td><%= link_to t('show'), evaluation_criterium %></td>
+    <td><%= link_to t('edit'), edit_evaluation_criterium_path(evaluation_criterium) %></td>
+    <td><%= link_to t('destroy'), evaluation_criterium, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to t('evaluation_criterium.new').capitalize, new_evaluation_criterium_path %>

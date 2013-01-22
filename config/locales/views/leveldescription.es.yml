@@ -1,0 +1,6 @@
+es:
+  level_descriptions: "Descripción de los Niveles Formativos"
+  level_description:
+    new: "Nueva Descripción"
+    edit: "Cambiar Descripción"
+    list: "Lista de Descripciones"

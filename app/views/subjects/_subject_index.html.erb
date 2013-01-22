@@ -1,0 +1,11 @@
+  <tr>
+    <td><%= conditional_link(subject, image_tag(subject.logo.url(:tiny))) %></td>
+    <td align="right"><%= "#{subject.value} #{translate_option_for Subject::UNITS, subject.value_unit}" %></td>
+    <td align="center"><%= "#{subject.teaching_hours} h." %></td>
+    <td><%= conditional_link(subject, subject.title) %>
+        <%= "(#{ subject.abbreviation })" unless subject.abbreviation.blank? -%>
+    </td>
+    <td><%= link_to t('show'), subject %></td>
+    <td><%= link_to t('edit'), edit_subject_path(subject) %></td>
+    <td><%= link_to t('destroy'), subject, :confirm => t('are_you_sure'), :method => :delete %></td>
+  </tr>

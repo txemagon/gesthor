@@ -1,0 +1,8 @@
+<%= f.label :statement %><br />
+<%= f.text_area :statement, :rows => 2 %>
+<%= f.link_to_remove t("learning_outcome.remove") %><br />
+
+<h4><%= t("evaluation_criteria") %></h4>
+<%= f.fields_for :evaluation_criteria  %>
+<br\>
+<%= f.link_to_add t("evaluation_criterium.new"), :evaluation_criteria %>

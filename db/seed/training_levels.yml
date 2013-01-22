@@ -1,0 +1,107 @@
+###training levels...nombre, descripci�n, nombrecorto, parent_id
+ 
+sds:
+  name: Colegio Salesiano Santo Domingo Savio
+  description: Colegio Salesiano de Formaci�n en valores
+  short_name: SDS
+  url: http://www.salesianosdosa.com
+
+primaria:
+  name: Educación Primaria
+  description: Educaci�n Primaria
+  short_name: Primaria
+  parent: sds
+  url:
+
+eso_bachillerato:
+  name: ESO-BACHILLERATO
+  description: ESO y Bachillerato
+  short_name: ESO-BACHILLERATO
+  parent: sds
+  url:
+
+fp:
+  name: Formación Profesional
+  description: Formaci�n Profesional
+  short_name: FP
+  parent: sds
+  url:
+
+pcpi:
+  name: PCPI
+  description: Programas de Cualificaci�n Profesional Inicial
+  short_name: PCPI
+  parent: fp
+  url:
+
+fp_grado_medio:
+  name: FP Grado Medio
+  description: Formación Profesional Grado Medio
+  short_name: FP Grado Medio
+  parent: fp
+  url:
+
+fp_grado_superior:
+  name: FP Grado Superior
+  description: Formación Profesional Grado Superior
+  short_name: FP Grado Superior
+  parent: fp
+  url:
+
+ocupacional_continua:
+  name: Ocupacional y Continua
+  description: Formación Ocupacional y Continua
+  short_name: Ocupacional y Continua
+  parent: sds
+  url:
+
+dam:
+  name: Desarrollo de Aplicaciones Multiplataforma
+  description: Se aprende a hacer programas.
+  short_name: DAM
+  parent: fp_grado_superior
+  url:
+
+sti:
+  name: Sistemas de Telecomunicación e Informática
+  description: Se aprende a montar redes
+  short_name: STI
+  parent: fp_grado_superior
+  url:
+
+mi:
+  name: Mecatronica Industrial
+  description: Mecatronica Industrial
+  short_name: MI
+  parent: fp_grado_superior
+  url:
+
+dfm:
+  name: Diseño en Fabricación Mecánica
+  description: Diseño de Fabricación Mecánica
+  short_name: DFM
+  parent: fp_grado_superior
+  url:
+
+af:
+  name: Administración y Finanzas
+  description: Contabilidad empresas y particulares
+  short_name: AF
+  parent: fp_grado_superior
+  url:
+
+sc:
+  name: Soldadura y Calderería
+  description: Soldadura y Calderería
+  short_name: SC
+  parent: fp_grado_medio
+  url:
+
+iea:
+  name: Instalaciones Eléctricas y Automáticas
+  description: Instalaciones Eléctricas y Automáticas
+  short_name: IEA
+  parent: fp_grado_medio
+  url:
+
+
