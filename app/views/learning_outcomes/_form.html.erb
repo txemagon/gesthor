@@ -2,10 +2,9 @@
 
 <%= error_explanation_for @learning_outcome %>
 
-  <div class="field">
-    <%= f.label :subject_id %><br />
-    <%= f.number_field :subject_id %>
-  </div>
+    <%= f.hidden_field :subject_id, :value => @subject.id %>
+
+    <p> Datos de <%= @subject.title %> </p>
 
   <div class="field">
     <%= f.label :statement %><br />

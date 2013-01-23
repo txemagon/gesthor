@@ -30,10 +30,16 @@ class LearningOutcomesController < ApplicationController
   # GET /learning_outcomes/new.json
   def new
     @learning_outcome = LearningOutcome.new
+    @subject = Subject.find(params[:subject]) if params[:subject] 
 
     respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @learning_outcome }
+      if @subject
+        format.html # new.html.erb
+        format.json { render json: @learning_outcome }
+      else
+        format.html { redirect_to training_levels_url, status: :bad_request }
+        format.json { head :no_content }
+      end
     end
   end
 

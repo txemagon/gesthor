@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120628135433) do
+ActiveRecord::Schema.define(:version => 20130123190241) do
 
   create_table "competencies", :force => true do |t|
     t.text     "statement",            :null => false

@@ -20,7 +20,8 @@ class TrainingLevel < ActiveRecord::Base
                                  
   before_create { |tl| tl.build_level_description }
 
-  validates_uniqueness_of :name, :short_name
+  validates_uniqueness_of :name
+  validates_uniqueness_of :short_name, :allow_blank => true
   validates_presence_of :name
   validates :url, :uri => { 
      :format => /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix }
