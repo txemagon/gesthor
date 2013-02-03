@@ -1,20 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b><%= t('activerecord.attributes.learning_outcome.subject').capitalize %>:</b>
-  <%= @learning_outcome.subject.title %>
-</p>
+  <h2><%= @learning_outcome.subject.title %></h2>
 
-<p>
-  <b><%= t('activerecord.attributes.learning_outcome.statement').capitalize %>:</b>
-  <%= @learning_outcome.statement %>
-</p>
+<h3> <%= @learning_outcome.statement %> </h3>
 
-<h2> <%= t('evaluation_criteria') %></h2>
+<h4> <%= t('evaluation_criteria') %></h4>
 <% if @learning_outcome.evaluation_criteria.blank? %>
   <p><%= t('evaluation_criterium.still_no') %></p>
 <% else %>
+  <ol class="Alpha">
    <%= render @learning_outcome.evaluation_criteria %>
+  </ol>
 <% end %>
 
 <h2> <%= t('nuclear_activities') %></h2>
@@ -25,5 +21,5 @@
 <% end %>
 
 
-<%= link_to t('edit'), edit_learning_outcome_path(@learning_outcome) %> |
-<%= link_to t('back'), learning_outcomes_path %>
+<%= link_to t('edit'), edit_learning_outcome_path(@learning_outcome, :subject => @learning_outcome.subject) %> |
+<%= link_to t('back'), learning_outcomes_path(:subject => @learning_outcome.subject) %>
