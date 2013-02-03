@@ -6,12 +6,12 @@
   <h3><%= t('level_goals') -%></h3>
 
   <%= t('level_goal.empty') if level_description.level_goals.empty? %>
-  <ul> <%= render level_description.level_goals %></ul>
+  <ol class="Alpha"> <%= render level_description.level_goals %></Ol>
 
   <h3><%= t('competencies') -%></h3>
 
   <%= t('competency.empty') if level_description.competencies.empty? %>
-  <ul> <%= render level_description.competencies %></ul>
+  <ol class="Alpha"> <%= render level_description.competencies %></ol>
 
   <h3><%= t('qualifications') -%></h3>
 

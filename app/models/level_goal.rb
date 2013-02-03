@@ -4,6 +4,7 @@ class LevelGoal < ActiveRecord::Base
   belongs_to :level_description
   has_and_belongs_to_many :subjects
 
-  validates :level_description_id, :statement, :presence => true, :uniqueness => true
+  validates :level_description_id, :presence => true
+  validates :statement, :presence => true, :uniqueness => true
 
 end
