@@ -1,8 +1,7 @@
 class NuclearActivity < ActiveRecord::Base
-  attr_accessible :learning_outcome_id, :statement
+  attr_accessible :task_id, :statement
+  belongs_to :task
 
-  belongs_to :learning_outcome
-
-  validates :learning_outcome_id, :presence => true, :uniqueness => true
+  validates_presence_of :statement
 
 end

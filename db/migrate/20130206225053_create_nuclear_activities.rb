@@ -1,10 +1,10 @@
 class CreateNuclearActivities < ActiveRecord::Migration
   def change
     create_table :nuclear_activities do |t|
-      t.text :statement, :null => false
-      t.integer :learning_outcome_id
+      t.integer :task_id, :null => false
+      t.text :statement
 
-      t.timestamps
+      t.timestamp
     end
   end
 end

@@ -17,11 +17,11 @@
   <br\>
   <%= f.link_to_add t("evaluation_criterium.new"), :evaluation_criteria %>
 
-  <h4><%= t("nuclear_activities") %></h4>
+  <h4><%= t("tasks") %></h4>
 
-  <%= f.fields_for :nuclear_activities  %>
+  <%= f.fields_for :tasks  %>
   <br\>
-  <%= f.link_to_add t("nuclear_activity.new"), :nuclear_activities %>
+  <%= f.link_to_add t("task.new"), :tasks %>
 
   <div class="actions">
     <%= f.submit %>

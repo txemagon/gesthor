@@ -1,0 +1,16 @@
+es:
+  Task:
+    gender:
+      one: "la tarea"
+      other: "las tareas"
+  activerecord:
+    models:
+      task: "Tarea"
+      tasks: "Tareas"
+    attributes:
+      task: &task
+        learning_outcome_id: "Resultado de Aprendizaje"
+        learning_outcome: "Resultado de Aprendizaje"
+        statement: "Enunciado"
+      tasks: 
+        <<: *task

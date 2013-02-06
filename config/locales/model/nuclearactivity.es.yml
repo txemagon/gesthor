@@ -9,8 +9,8 @@ es:
       nuclear_activities: "Actividades"
     attributes:
       nuclear_activity: &nuclear_activity
-        learning_outcome_id: "Resultado de Aprendizaje"
-        learning_outcome: "Resultado de Aprendizaje"
+        task_id: "Tarea"
+        task: "Tarea"
         statement: "Enunciado"
       nuclear_activities: 
         <<: *nuclear_activity

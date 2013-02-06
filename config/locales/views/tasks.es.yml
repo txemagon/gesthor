@@ -1,0 +1,8 @@
+es:
+  tasks: "Tareas"
+  task:
+    new: "Crear Tarea"
+    edit: "Editar Tarea"
+    list: "Tareas"
+    still_no: "Todavía no se han creado tareas."
+    remove: "Eliminar Tarea"

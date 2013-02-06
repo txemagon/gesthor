@@ -1,0 +1,11 @@
+<li><%= task.statement %></li>
+<% if task.nuclear_activities.blank? %>
+  <p><%= t('nuclear_activity.still_no') %></p>
+<% else %>
+   <ol>
+   <%= render task.nuclear_activities %>
+   </ol>
+<% end %>
+
+
+

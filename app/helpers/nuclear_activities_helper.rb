@@ -1,2 +1,0 @@
-module NuclearActivitiesHelper
-end

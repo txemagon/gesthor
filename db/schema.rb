@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130123190241) do
+ActiveRecord::Schema.define(:version => 20130206225053) do
 
   create_table "competencies", :force => true do |t|
     t.text     "statement",            :null => false
@@ -69,10 +69,8 @@ ActiveRecord::Schema.define(:version => 20130123190241) do
   add_index "level_goals_subjects", ["subject_id", "level_goal_id"], :name => "index_level_goals_subjects_on_subject_id_and_level_goal_id", :unique => true
 
   create_table "nuclear_activities", :force => true do |t|
-    t.text     "statement",           :null => false
-    t.integer  "learning_outcome_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.integer "task_id",   :null => false
+    t.text    "statement"
   end
 
   create_table "qualifications", :force => true do |t|
@@ -114,6 +112,13 @@ ActiveRecord::Schema.define(:version => 20130123190241) do
     t.decimal  "value",             :precision => 6, :scale => 2, :default => 0.0
     t.string   "value_unit",                                      :default => "ECTS"
     t.integer  "teaching_hours",                                  :default => 0,      :null => false
+  end
+
+  create_table "tasks", :force => true do |t|
+    t.integer  "learning_outcome_id", :null => false
+    t.text     "statement"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
   end
 
   create_table "teaching_units", :force => true do |t|

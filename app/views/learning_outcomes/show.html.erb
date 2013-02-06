@@ -13,11 +13,13 @@
   </ol>
 <% end %>
 
-<h2> <%= t('nuclear_activities') %></h2>
-<% if @learning_outcome.nuclear_activities.blank? %>
-  <p><%= t('nuclear_activity.still_no') %></p>
+<h2> <%= t('tasks') %></h2>
+<% if @learning_outcome.tasks.blank? %>
+  <p><%= t('task.still_no') %></p>
 <% else %>
-   <%= render @learning_outcome.nuclear_activities %>
+   <ol>
+   <%= render @learning_outcome.tasks %>
+   </ol>
 <% end %>
 
 

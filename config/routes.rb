@@ -1,8 +1,6 @@
 Gestor::Application.routes.draw do
   resources :evaluable_competencies
 
-  resources :nuclear_activities
-
   resources :teaching_units
 
   resources :evaluation_criteria

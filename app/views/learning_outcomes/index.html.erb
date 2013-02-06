@@ -16,7 +16,7 @@
     <td><%= learning_outcome.subject.title unless @subject %></td>
     <td><%= learning_outcome.statement %></td>
     <td><%= link_to t('show'), learning_outcome %></td>
-    <td><%= link_to t('edit'), edit_learning_outcome_path(learning_outcome) %></td>
+    <td><%= link_to t('edit'), edit_learning_outcome_path(learning_outcome, :subject => @subject) %></td>
     <td><%= link_to t('destroy'), learning_outcome, :confirm => t('are_you_sure'), :method => :delete %></td>
   </tr>
 <% end %>
