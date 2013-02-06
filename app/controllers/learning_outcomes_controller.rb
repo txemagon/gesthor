@@ -46,6 +46,7 @@ class LearningOutcomesController < ApplicationController
   # GET /learning_outcomes/1/edit
   def edit
     @learning_outcome = LearningOutcome.find(params[:id])
+    @subject = Subject.find(params[:subject]) if params[:subject] 
   end
 
   # POST /learning_outcomes
